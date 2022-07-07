@@ -11,7 +11,7 @@ import getopt
 import random
 
 help_message = '''
-Bip39 12 Word Random Generator 
+MINI keys Random Generator 
 Output File Saved as MiniKeys.txt
 Command Exntensions:
 -n <x> or --number <x>: Number of sample code phrases given. (Default is 5)
@@ -55,7 +55,15 @@ def generate(prefix=False, number=5):
             word20 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
             word21 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
             word22 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
-        print >> outputtxt, "%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip(), word7.rstrip(), word8.rstrip(), word9.rstrip(), word10.rstrip(), word11.rstrip(), word12.rstrip(), word13.rstrip(), word14.rstrip(), word15.rstrip(), word16.rstrip(), word17.rstrip(), word18.rstrip(), word19.rstrip(), word20.rstrip(), word21.rstrip(), word22.rstrip())
+            word23 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
+            word24 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
+            word25 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
+            word26 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
+            word27 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
+            word28 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
+            word29 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
+            word30 = CODEWORDS[int(random.uniform(0,len(CODEWORDS)))]
+        print >> outputtxt, "%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s" % (word1.rstrip(), word2.rstrip(), word3.rstrip(), word4.rstrip(), word5.rstrip(), word6.rstrip(), word7.rstrip(), word8.rstrip(), word9.rstrip(), word10.rstrip(), word11.rstrip(), word12.rstrip(), word13.rstrip(), word14.rstrip(), word15.rstrip(), word16.rstrip(), word17.rstrip(), word18.rstrip(), word19.rstrip(), word20.rstrip(), word21.rstrip(), word22.rstrip(), word23.rstrip(), word24.rstrip(), word25.rstrip(), word26.rstrip(), word27.rstrip(), word28.rstrip(), word29.rstrip(), word30.rstrip())
         
         number -= 1
     

@@ -1,3 +1,3 @@
-generateMINIkeys.py -n 18446744073709551616 -w wordlist.txt
+generateMINIkeys.py -n 341427877364219557396646723584 -w wordlist.txt
 
 pause
