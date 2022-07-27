@@ -1,0 +1,4 @@
+python Trx.py
+
+
+pause
